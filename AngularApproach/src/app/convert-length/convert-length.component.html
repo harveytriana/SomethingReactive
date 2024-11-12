@@ -3,7 +3,7 @@
 <label>Inches </label>
 <input
   type="number"
-  [value]="inches().toFixed(6)"
+  [value]="inches()"
   (input)="onInchesChange($event)"
 />
 
@@ -11,7 +11,7 @@
 
 <input
   type="number"
-  [value]="centimeters().toFixed(6)"
+  [value]="centimeters()"
   (input)="onCentimetersChange($event)"
 />
 <label> Centimeters</label>
