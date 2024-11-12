@@ -1,0 +1,31 @@
+﻿@using System.Timers
+@implements IDisposable
+
+<div>
+    @currentTime
+</div>
+
+@code {
+    string currentTime = "...";
+
+    Timer timer = new Timer();
+
+    protected override void OnInitialized()
+    {
+        timer.Interval = 250;
+        timer.Elapsed += (s, e) => InvokeAsync(UpdateClock);
+        timer.Start();
+    }
+
+    async Task UpdateClock()
+    {
+        currentTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
+        await InvokeAsync(StateHasChanged); // granular reactivity
+    }
+
+    public void Dispose()
+    {
+        timer.Stop();
+        timer.Dispose();
+    }
+}
