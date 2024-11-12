@@ -1,31 +1,31 @@
 {
-  "hash": "3b32caa7",
-  "configHash": "723c5d79",
+  "hash": "c5c25a6f",
+  "configHash": "22755744",
   "lockfileHash": "976a771d",
-  "browserHash": "61fe2192",
+  "browserHash": "37427152",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "56df03a4",
+      "fileHash": "94f9e48a",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "a14e1c37",
+      "fileHash": "da581add",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "3224f43c",
+      "fileHash": "7dc2a426",
       "needsInterop": false
     },
     "date-fns": {
       "src": "../../../../../../node_modules/date-fns/index.js",
       "file": "date-fns.js",
-      "fileHash": "4eed0de0",
+      "fileHash": "c37b3211",
       "needsInterop": false
     }
   },
