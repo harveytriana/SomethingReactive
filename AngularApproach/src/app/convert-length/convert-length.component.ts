@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, computed, effect } from '@angular/core';
 
 @Component({
   selector: 'app-convert-length',
@@ -7,15 +7,26 @@ import { Component, signal } from '@angular/core';
   styleUrls: ['./convert-length.component.css']
 })
 export class ConvertLengthComponent {
-  // define Signals
+  // Signal for inches and centimeters
   inches = signal(1);
-  centimeters = signal(2.54);
+  centimeters = computed(() => this.inches() * 2.54);
 
-  updateCentimeters() {
-    this.centimeters.set(this.inches() * 2.54);
+  constructor() {
+    // Effect to update inches based on centimeters input change
+    effect(() => {
+      this.inches.update(inches => this.centimeters() / 2.54);
+    });
   }
 
-  updateInches() {
-    this.inches.set(this.centimeters() / 2.54);
+  // Method to update inches based on input field change
+  onInchesChange(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    this.inches.set(target.valueAsNumber);
+  }
+
+  // Method to update centimeters based on input field change
+  onCentimetersChange(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    this.inches.set(target.valueAsNumber / 2.54);
   }
 }
