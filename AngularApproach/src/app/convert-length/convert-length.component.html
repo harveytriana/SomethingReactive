@@ -1,0 +1,7 @@
+<h3>Convert Inch to/from Centimeter - Two-Way Binding</h3>
+
+<label>Inches</label>
+<input type="number" [value]="inches()" (input)="updateCentimeters()" />
+<span> = </span>
+<input type="number" [value]="centimeters()" (input)="updateInches()" />
+<label>Centimeters</label>
