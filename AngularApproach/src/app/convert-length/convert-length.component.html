@@ -1,9 +1,9 @@
 <h3>Convert Inch to/from Centimeter - Two-Way Binding</h3>
 
-<label>Inches</label>
+<label>Inches </label>
 <input
   type="number"
-  [value]="inches()"
+  [value]="inches().toFixed(6)"
   (input)="onInchesChange($event)"
 />
 
@@ -11,7 +11,7 @@
 
 <input
   type="number"
-  [value]="centimeters()"
+  [value]="centimeters().toFixed(6)"
   (input)="onCentimetersChange($event)"
 />
-<label>Centimeters</label>
+<label> Centimeters</label>

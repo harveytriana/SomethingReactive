@@ -15,12 +15,13 @@
 <span> = </span>
 <input type="number" @bind-value="@Centimeters" @bind-value:event="oninput" />
 <label>Centimeters</label>
+<br />
 
 @code {
-    double inches = 1; // default value
+    double inches = 1.00; // default value
     double centimeters = 2.54; // default value
 
-    public double Inches {
+    double Inches {
         get => inches;
         set {
             centimeters = value * 2.54;
@@ -28,7 +29,7 @@
         }
     }
 
-    public double Centimeters {
+    double Centimeters {
         get => centimeters;
         set {
             inches = value / 2.54;
