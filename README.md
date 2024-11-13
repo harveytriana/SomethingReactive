@@ -36,7 +36,9 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
 
 ![HomeComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
 
-
+---
+output: html_document
+---
 <table>
   <thead>
     <tr>
