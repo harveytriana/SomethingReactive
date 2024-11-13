@@ -75,6 +75,15 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th width="500px"> API</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr width="600px">
+      <td>
 ```jsonc
 {
   "foo": [
@@ -84,3 +93,4 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
   ]
 }
 ```
+      </td></tr></tbody></table>
