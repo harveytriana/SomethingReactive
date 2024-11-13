@@ -10,11 +10,15 @@
 </style>
 
 <h3>Convert Inch to/from Centimeter - Two-Way Binding</h3>
-<label>Inches</label>
-<input type="number" @bind-value="@Inches" @bind-value:event="oninput" />
+<label>Inches </label>
+<input type="number" 
+       @bind-value="@Inches" 
+       @bind-value:event="oninput" />
 <span> = </span>
-<input type="number" @bind-value="@Centimeters" @bind-value:event="oninput" />
-<label>Centimeters</label>
+<input type="number" 
+       @bind-value="@Centimeters" 
+       @bind-value:event="oninput" />
+<label> Centimeters</label>
 <br />
 
 @code {

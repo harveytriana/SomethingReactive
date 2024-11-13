@@ -13,7 +13,7 @@ import { format } from 'date-fns';
 })
 export class ClockLabelComponent implements OnDestroy {
 
-  currentTime = signal<string>("...");
+  currentTime = signal<string>("0000-00-00 00:00:00");
 
   timerId: any;
 
@@ -28,7 +28,6 @@ export class ClockLabelComponent implements OnDestroy {
   }
 
   updateClock() {
-    // this.currentTime.set(new Date().toISOString().replace("T", " ").slice(0, 19));
     let now = new Date();
     this.currentTime.set(format(now, 'yyyy-MM-dd HH:mm:ss.SSS'));
   }
