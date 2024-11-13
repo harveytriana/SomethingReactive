@@ -36,3 +36,19 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
 
 ![HomeComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
 
+<table style="font-size: 10px; font-family: Courier, monospace;">
+  <tr>
+    <td>
+```javascript
+// JavaScript
+console.log("Hola desde JavaScript");
+```
+</td> 
+<td>
+```python
+print("Hola desde Python")
+```
+</td> 
+</tr> 
+</table> 
+
