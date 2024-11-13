@@ -17,7 +17,7 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
 
 En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor, el resultado es idéntico. Un simple componente que se actualiza granularmente cada 250 milisegundos.
 
-\[imagen\]
+![ClockComponent(https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ClockComponent.png)
 
 La manera como se escribió es meramente ilustrativa, por supuesto se puede escribir en organización formal.
 
@@ -27,9 +27,9 @@ Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal 
 
 Two-Way Binding
 
-\[imagen\]
+![ConvertLenghtComponent(https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ConvertLenghtComponent.png)
 
 Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simple de los Selectores. Mira el equivalente en cada caso.
 
-\[imagen\]
+![HomeComponent(https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
 
