@@ -1,3 +1,4 @@
+/*----- Angular v18 -----*/
 import { Component } from '@angular/core';
 import { ClockLabelComponent } from './clock-label/clock-label.component'
 import { ConvertLengthComponent } from './convert-length/convert-length.component'
