@@ -48,7 +48,7 @@ output: html_document
   <tbody>
     <tr width="500px">
       <td>
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: auto; max-width: none;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
