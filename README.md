@@ -48,13 +48,17 @@ output: html_document
   <tbody>
     <tr width="500px">
       <td>
-        <pre><code>{
+        <pre>
+          ```json
+          {
   "foo": [
     {
       "bar": "hello world"
     }
   ]
-}</code></pre>
+}
+          ```
+        </pre>
       </td>
     </tr>
   </tbody>
