@@ -26,10 +26,10 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor,
   </thead>
   <tbody>
     <tr>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
     </tr>
@@ -53,10 +53,10 @@ Two-Way Binding
   </thead>
   <tbody>
     <tr>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
       </td>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 
       </td>
     </tr>
@@ -73,10 +73,10 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
   </thead>
   <tbody>
     <tr>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng3.png" style="width: 560px; height: 300px; object-fit: contain;" /> 
       </td>
-      <td style="vertical-align: top;">
+      <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs3.png" style="width: 420px; height: 200px; object-fit: contain;" /> 
       </td>
     </tr>
