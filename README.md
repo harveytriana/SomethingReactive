@@ -42,23 +42,17 @@ output: html_document
 <table>
   <thead>
     <tr>
-      <th width="500px">API</th>
+      <th>Angular</th>
+      <th>Blazor WebAssembly</th>
     </tr>
   </thead>
   <tbody>
-    <tr width="500px">
+    <tr>
       <td>
-        <pre>
-          ```json
-          {
-  "foo": [
-    {
-      "bar": "hello world"
-    }
-  ]
-}
-          ```
-        </pre>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      </td>
+      <td>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
