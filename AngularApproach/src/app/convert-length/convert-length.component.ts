@@ -1,4 +1,4 @@
-/*----- Angular v18 -----*/
+/*---------- Angular v18 ----------*/
 import { Component, signal, computed, effect } from '@angular/core';
 
 @Component({

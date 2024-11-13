@@ -1,4 +1,4 @@
-/*----- Angular v18 -----*/
+/*---------- Angular v18 ----------*/
 import { Component, OnDestroy, signal } from '@angular/core';
 import { format } from 'date-fns';
 
@@ -15,7 +15,6 @@ import { format } from 'date-fns';
 export class ClockLabelComponent implements OnDestroy {
 
   currentTime = signal<string>("0000-00-00 00:00:00");
-
   timerId: any;
 
   constructor() {
