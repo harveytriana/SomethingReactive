@@ -54,7 +54,7 @@ Two-Way Binding
   <tbody>
     <tr>
       <td style="vertical-align: top;">
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng3.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
       </td>
       <td style="vertical-align: top;">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 
@@ -77,7 +77,7 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng3.png" style="width: 560px; height: 300px; object-fit: contain;" /> 
       </td>
       <td style="vertical-align: top;">
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 420px; height: 200px; object-fit: contain;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs3.png" style="width: 420px; height: 200px; object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
