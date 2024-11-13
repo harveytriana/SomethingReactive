@@ -42,57 +42,20 @@ output: html_document
 <table>
   <thead>
     <tr>
-      <th width="500px"> API</th>
-      <th width="500px">CLI</th>
+      <th width="500px">API</th>
     </tr>
   </thead>
   <tbody>
-  <tr width="600px">
+    <tr width="500px">
       <td>
-```jsonc
-{
+        <pre><code>{
   "foo": [
     {
       "bar": "hello world"
     }
   ]
-}
-```
-
-</td>
-<td>
-```jsonc
-{
-  "foo": [
-    {
-      "bar": "hello world"
-    }
-  ]
-}
-```
-
-</td>
-</tr>
-
+}</code></pre>
+      </td>
+    </tr>
   </tbody>
 </table>
-
-<table>
-  <thead>
-    <tr>
-      <th width="500px"> API</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr width="600px">
-      <td>
-```jsonc
-{
-  "foo": [
-    {
-      "bar": "hello world"
-    }
-  ]
-}
-```
-      </td></tr></tbody></table>
