@@ -36,20 +36,13 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
 
 ![HomeComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
 
-<table style="font-size: 10px; font-family: Courier, monospace;">
-  <tr>
-    <td>
-```javascript
-   // JavaScript
-   console.log("Hola desde JavaScript");
-
-</td> 
-<td>
-```python
-   #python
-   print("Hola desde Python")
-
-</td> 
-</tr> 
-</table> 
-
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
