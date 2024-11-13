@@ -30,7 +30,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor,
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
       <td style="vertical-align: top;">
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="object-fit: contain;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
@@ -53,10 +53,10 @@ Two-Way Binding
   </thead>
   <tbody>
     <tr>
-      <td>
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
+      <td style="vertical-align: top;">
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng3.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
       </td>
-      <td>
+      <td style="vertical-align: top;">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 
       </td>
     </tr>
@@ -64,12 +64,6 @@ Two-Way Binding
 </table>
 
 Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simple de los Selectores. Mira el equivalente en cada caso.
-
-![HomeComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
-
----
-output: html_document
----
 <table>
   <thead>
     <tr>
@@ -79,12 +73,16 @@ output: html_document
   </thead>
   <tbody>
     <tr>
-      <td>
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      <td style="vertical-align: top;">
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng3.png" style="width: 560px; height: 300px; object-fit: contain;" /> 
       </td>
-      <td>
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      <td style="vertical-align: top;">
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 420px; height: 200px; object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
 </table>
+
+---
+output: html_document
+---
