@@ -17,7 +17,10 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
 
 En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor, el resultado es idéntico. Un simple componente que se actualiza granularmente cada 250 milisegundos.
 
-![ClockComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ClockComponent.png)
+<div align="center">
+  <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ClockComponent.png" alt="Texto alternativo de la imagen" style="width: auto; max-width: none;">
+</div>
+
 
 La manera como se escribió es meramente ilustrativa, por supuesto se puede escribir en organización formal.
 
