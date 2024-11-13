@@ -40,14 +40,15 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
   <tr>
     <td>
 ```javascript
-// JavaScript
-console.log("Hola desde JavaScript");
-```
+   // JavaScript
+   console.log("Hola desde JavaScript");
+
 </td> 
 <td>
 ```python
-print("Hola desde Python")
-```
+   #python
+   print("Hola desde Python")
+
 </td> 
 </tr> 
 </table> 
