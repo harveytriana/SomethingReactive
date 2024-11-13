@@ -5,8 +5,11 @@ import { format } from 'date-fns';
   selector: 'app-clock-label',
   standalone: true,
   imports: [],
-  templateUrl: './clock-label.component.html',
-  styleUrl: './clock-label.component.css'
+  template: `
+      <div>
+        {{ currentTime() }}
+    </div>
+  `
 })
 export class ClockLabelComponent implements OnDestroy {
 
