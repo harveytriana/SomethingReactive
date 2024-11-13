@@ -5,3 +5,7 @@ body{
 h1:focus {
     outline: none;
 }
+
+input:focus {
+    outline: none;
+}

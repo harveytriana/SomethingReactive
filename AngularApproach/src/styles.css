@@ -1,7 +1,6 @@
-:root {
-    color-scheme: light;
-}
-
 body{
     margin: 25px;
+}
+input:focus {
+    outline: none;
 }

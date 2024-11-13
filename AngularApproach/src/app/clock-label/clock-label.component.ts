@@ -6,8 +6,8 @@ import { format } from 'date-fns';
   standalone: true,
   imports: [],
   template: `
-      <div>
-        {{ currentTime() }}
+    <div>
+      {{ currentTime() }}
     </div>
   `
 })
