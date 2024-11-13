@@ -26,11 +26,11 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor,
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td style="vertical-align: top;">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
       </td>
-      <td>
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      <td style="vertical-align: top;">
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="object-fit: contain;" /> 
       </td>
     </tr>
   </tbody>
