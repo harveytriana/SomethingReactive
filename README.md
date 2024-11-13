@@ -14,7 +14,7 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
    
 4. **Eventos de UI**: Blazor maneja eventos como clics, teclas presionadas, cambios de texto, etc., que pueden disparar actualizaciones en el estado del componente, lo que nuevamente provoca una re-renderización reactiva de la UI.
 
-*Signals es* una nueva API reactiva de Angular con el objetivo de manejar el estado de las aplicaciones de forma más eficiente y predecible. El modelo reactivo de Blazor  dispone de una especificación técnica equivalente, pero a diferencia de Angular es inherente. 
+*Signals* es una nueva API reactiva de Angular con el objetivo de manejar el estado de las aplicaciones de forma más eficiente y predecible. El modelo reactivo de Blazor  dispone de una especificación técnica equivalente, pero a diferencia de Angular es inherente. 
 
 ## Ejemplo 1 - Timer
 
@@ -39,11 +39,11 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor,
   </tbody>
 </table>
 
-La manera como se escribió es meramente ilustrativa, por supuesto se puede escribir en organización formal.
+El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.
 
 ## Ejemplo 2 - Two-Way Binding
 
-Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal compute, effect, y update. Es un enlace bidireccional. Cuando se edita en una caja, hace un cálculo, se actualiza a otra caja y viceversa. Confieso que fue algo difícil hacerlo en Angular para que respondiera exactamente igual que en Blazor, aun con Signals. Posiblemente un programador Angular podrá mejorar el código de Angular. En fin, el resultados es exactamente  equivalente:
+Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal *compute, effect, y update*. Al editar en una caja, se realiza un cálculo que actualiza otra caja, y viceversa. Admito que fue algo desafiante lograr que funcionara de la misma forma en Angular que en Blazor, incluso con Signals. Es probable que un programador especializado en Angular pueda optimizar el código. En cualquier caso, el resultado final es completamente equivalente.
 
 <table>
   <thead>
@@ -64,7 +64,7 @@ Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal 
   </tbody>
 </table>
 
-Finalmente podemos poner este par de componentes en una página para ilustrar el comportamiento. El equivalente en cada caso.
+Finalmente podemos usar este par de componentes en una página para ilustrar el comportamiento. 
 
 <table>
   <thead>
