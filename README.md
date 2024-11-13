@@ -48,7 +48,7 @@ output: html_document
   <tbody>
     <tr width="500px">
       <td>
-        ![ClockLabelComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png)
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" /> 
       </td>
     </tr>
   </tbody>
