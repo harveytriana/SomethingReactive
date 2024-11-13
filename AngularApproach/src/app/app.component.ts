@@ -6,8 +6,13 @@ import { ConvertLengthComponent } from './convert-length/convert-length.componen
   selector: 'app-root',
   standalone: true,
   imports: [ClockLabelComponent, ConvertLengthComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `
+    <h1>Something Reactive</h1>
+    <hr>
+    <app-clock-label />
+    <hr />
+    <app-convert-length />
+  `
 })
 export class AppComponent {
   title = 'something-reactive';

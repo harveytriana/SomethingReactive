@@ -25,11 +25,11 @@ export class ConvertLengthComponent {
 
   constructor() {
     effect(() => {
-      this.inches.update(inches => this.centimeters() / 2.54);
+      this.inches.update(()=> this.centimeters() / 2.54);
     });
   }
 
-  //----- Two-Way Binding Approach -----
+  //----- Two-Way Binding ~Approach -----
   onInchesChange(event: Event): void {
     let target = event.target as HTMLInputElement;
     this.inches.set(target.valueAsNumber);

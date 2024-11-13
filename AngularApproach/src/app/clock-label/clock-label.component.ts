@@ -1,3 +1,4 @@
+/*----- Angular v18 -----*/
 import { Component, OnDestroy, signal } from '@angular/core';
 import { format } from 'date-fns';
 
