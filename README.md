@@ -1,6 +1,6 @@
 # Comparando Reactividad en Blazor con Signals de Angular
 
-¿Blazor necesita algo como Signals de Angular para ser reactivo? No. Blazor es reactivo desde siempre. Las interfaces de usuario interactivas se actualizan dinámica y granularmente en respuesta a cambios en el estado de la página; no necesita más.
+¿Blazor necesita algo como Signals de Angular para ser reactivo? No. Blazor es reactivo desde siempre. Las interfaces de usuario interactivas se actualizan dinámica y granularmente en respuesta a cambios en el estado de la página.
 
 Blazor utiliza un modelo de programación basado en componentes, donde cada componente tiene un ciclo de vida propio y una representación en la interfaz de usuario. El estado de los componentes cambia en respuesta a eventos del usuario, interacciones con la API, o cambios en el servidor, lo que desencadena una actualización de la UI de manera eficiente.
 
