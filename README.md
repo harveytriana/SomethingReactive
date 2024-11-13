@@ -74,3 +74,13 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
 
   </tbody>
 </table>
+
+```jsonc
+{
+  "foo": [
+    {
+      "bar": "hello world"
+    }
+  ]
+}
+```
