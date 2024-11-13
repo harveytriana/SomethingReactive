@@ -13,7 +13,7 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
 
 *Signals es* una nueva API reactiva de Angular con el objetivo de manejar el estado de las aplicaciones de forma más eficiente y predecible. El modelo reactivo de Blazor cumple de manera loable con esa especificación técnica. 
 
-## Ejemplo 1
+## Ejemplo 1 - Timer
 
 En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor, el resultado es idéntico. Un simple componente que se actualiza granularmente cada 250 milisegundos.
 
@@ -38,11 +38,9 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor,
 
 La manera como se escribió es meramente ilustrativa, por supuesto se puede escribir en organización formal.
 
-## Ejemplo 2
+## Ejemplo 2 - Two-Way Binding
 
 Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal compute, effect, y update. Es un enlace bidireccional. Cuando se edita en una caja, hace un cálculo, se actualiza a otra caja y viceversa. Confieso que fue algo difícil hacerlo en Angular para que respondiera exactamente igual que en Blazor, aun con Signals. Posiblemente un programador Angular podrá mejorar el código de Angular. En fin, el resultados es exactamente  equivalente:
-
-Two-Way Binding
 
 <table>
   <thead>
@@ -63,7 +61,8 @@ Two-Way Binding
   </tbody>
 </table>
 
-Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simple de los Selectores. Mira el equivalente en cada caso.
+Finalmente podemos poner este par de componentes en una página para ilustrar el comportamiento. El equivalente en cada caso.
+
 <table>
   <thead>
     <tr>
@@ -83,6 +82,4 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
   </tbody>
 </table>
 
----
-output: html_document
 ---
