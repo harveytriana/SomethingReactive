@@ -42,23 +42,13 @@ output: html_document
 <table>
   <thead>
     <tr>
-      <th width="500px">API</th>
+      <th width="500px">Angular</th>
     </tr>
   </thead>
   <tbody>
     <tr width="500px">
       <td>
-        <pre>
-          ```json
-          {
-  "foo": [
-    {
-      "bar": "hello world"
-    }
-  ]
-}
-          ```
-        </pre>
+        ![ClockLabelComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png)
       </td>
     </tr>
   </tbody>
