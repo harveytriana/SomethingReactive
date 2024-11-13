@@ -36,7 +36,7 @@ Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simpl
 
 ![HomeComponent](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/HomeComponent.png)
 
-<table border="0;width:100%;">
+<table style="width:100%;">
  <tr>
     <td><b style="font-size:30px;width:50%;">Title 1</b></td>
     <td><b style="font-size:30px;width:50%;">Title 2</b></td>
