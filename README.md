@@ -17,10 +17,24 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
 
 En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor, el resultado es idéntico. Un simple componente que se actualiza granularmente cada 250 milisegundos.
 
-<div align="center">
-  <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ClockComponent.png" alt="Texto alternativo de la imagen" style="width: auto; max-width: none;">
-</div>
-
+<table>
+  <thead>
+    <tr>
+      <th>Angular</th>
+      <th>Blazor WebAssembly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      </td>
+      <td>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs1.png" style="width: 490px; height: 600px; object-fit: contain;" /> 
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 La manera como se escribió es meramente ilustrativa, por supuesto se puede escribir en organización formal.
 
@@ -30,7 +44,24 @@ Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal 
 
 Two-Way Binding
 
-![ConvertLenght](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ConvertLenghtComponent.png)
+<table>
+  <thead>
+    <tr>
+      <th>Angular</th>
+      <th>Blazor WebAssembly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
+      </td>
+      <td>
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simple de los Selectores. Mira el equivalente en cada caso.
 
