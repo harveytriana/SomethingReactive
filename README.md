@@ -27,7 +27,7 @@ Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal 
 
 Two-Way Binding
 
-![ConvertLenght]Component(https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ConvertLenghtComponent.png)
+![ConvertLenght](https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ConvertLenghtComponent.png)
 
 Finalmente podemos usar este par de componentes para ilustrar el caso. Uso simple de los Selectores. Mira el equivalente en cada caso.
 
