@@ -48,7 +48,7 @@ output: html_document
   <tbody>
     <tr width="500px">
       <td>
-        <pre><code>{
+        <pre style="margin: 0; padding: 0;"><code style="display: block; padding: 0; margin: 0;">{
   "foo": [
     {
       "bar": "hello world"
