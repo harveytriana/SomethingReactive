@@ -14,7 +14,7 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
    
 4. **Eventos de UI**: Blazor maneja eventos como clics, teclas presionadas, cambios de texto, etc., que pueden disparar actualizaciones en el estado del componente, lo que nuevamente provoca una re-renderización reactiva de la UI.
 
-### Acerca de Angular Signals
+#### Acerca de Angular Signals
 
 *Signals* es una nueva API reactiva de Angular con el objetivo de manejar el estado de las aplicaciones de forma más eficiente y predecible. El modelo reactivo de Blazor dispone de una especificación técnica equivalente, pero a diferencia de Angular es inherente, o en otras plabras, es una parte fundamental de su identidad. 
 
