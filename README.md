@@ -45,7 +45,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor 
 
 ## Ejemplo 2 - Two-Way Binding
 
-Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal *compute, effect, y update*. Al editar en una caja, se realiza un cálculo que actualiza otra caja, y viceversa. Admito que fue algo desafiante lograr que funcionara de la misma forma en Angular que en Blazor, incluso con Signals. Es probable que un programador especializado en Angular pueda optimizar el código. En cualquier caso, el resultado final es completamente equivalente.
+Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal *compute, effect, y update*. Al editar en una caja, se realiza un cálculo que actualiza otra caja, y viceversa. Admito que fue algo desafiante lograr que funcionara de la misma forma en Angular que en Blazor, incluso con Signals. Es probable que un programador especializado en Angular pueda mejorar el código. En cualquier caso, el resultado final es completamente equivalente.
 
 <table>
   <thead>
@@ -88,9 +88,9 @@ Finalmente podemos usar este par de componentes en una página para ilustrar el 
 </table>
 
 ---
-## Notes
+## Notas
 
-> La aplicación Blazor WebAssembly se escribió en un Template mínimo. Es decir, sin ejemplos, y sin el layout tradicional. Se puede automatizar una plantilla de estas con herramientas como las que ofrece el genio Sakamoto: https://github.com/jsakamoto/BlazorMinimumTemplates (cosas que Microsoft debería estandarizar).
+> La aplicación Blazor WebAssembly se escribió en un Template mínimo. Es decir, sin ejemplos, y sin el layout tradicional. Se puede automatizar una plantilla de estas con herramientas como las que ofrece Sakamoto: https://github.com/jsakamoto/BlazorMinimumTemplates (cosas que Microsoft debería estandarizar).
 
 > No soy experto en Angular, pero encuentro que para alguien con experiencia en Blazor WebAssembly, aprender Angular resulta accesible, ya que comparten varios conceptos y estructuras similares.
 
