@@ -20,7 +20,7 @@ Blazor utiliza un modelo de programación basado en componentes, donde cada comp
 
 ## Ejemplo 1 - Timer
 
-En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor WebAssembly, el resultado es idéntico. Un simple componente que se actualiza granularmente cada 250 milisegundos.
+En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor WebAssembly, el resultado es idéntico, y el desempeño igual (por supuesto). Un simple componente que se actualiza granularmente cada 250 milisegundos.
 
 <table>
   <thead>
