@@ -8,12 +8,12 @@ import { Component, signal, computed, effect } from '@angular/core';
     <h3>Convert Inch to/from Centimeter - Two-Way Binding</h3>
     <label>Inches </label>
     <input type="number"
-          [value]="inches().toFixed(4)"
+          [value]="inches()"
           (input)="onInchesChange($event)"
     />
     <span> = </span>
     <input type="number"
-          [value]="centimeters().toFixed(4)"
+          [value]="centimeters()"
           (input)="onCentimetersChange($event)"
     />
     <label> Centimeters</label>
