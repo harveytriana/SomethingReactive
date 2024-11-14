@@ -5,11 +5,6 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApproach", "BlazorApproach\BlazorApproach.csproj", "{77049B6F-7FA6-44A7-88B0-7C6576EFA799}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{206AC9DB-F393-4467-9C45-84BB0A2F6255}"
-	ProjectSection(SolutionItems) = preProject
-		NOTES.txt = NOTES.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mirror", "Mirror", "{52B99E6A-6FCA-4BFA-9368-4F3C6D3B6BCA}"
 	ProjectSection(SolutionItems) = preProject
 		AngularApproach\src\app\app.component.ts = AngularApproach\src\app\app.component.ts
@@ -19,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mirror", "Mirror", "{52B99E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{431AEBB4-03AD-4B9F-9CF7-5906D1FEFF12}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		README_EN.md = README_EN.md
 		README_ES.md = README_ES.md
 	EndProjectSection
