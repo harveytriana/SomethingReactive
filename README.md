@@ -41,9 +41,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor 
   </tbody>
 </table>
 
-<div style="font-size: 10px;font-style: italic;">
-El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.
-</div>
+<span style="font-size: 10px;font-style: italic;">El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.</span>
 
 ## Ejemplo 2 - Two-Way Binding
 
