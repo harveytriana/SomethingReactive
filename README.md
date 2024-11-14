@@ -41,7 +41,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor 
   </tbody>
 </table>
 
-<small>El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.</small>
+>*El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.*
 
 ## Ejemplo 2 - Two-Way Binding
 
