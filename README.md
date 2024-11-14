@@ -41,7 +41,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor 
   </tbody>
 </table>
 
->*El estilo en que ha sido escrito es solo ilustrativo; naturalmente, puede organizarse de manera formal según los principios de cada paradigma.*
+>*El estilo del código es solo ilustrativo; naturalmente, puede estructurarse formalmente siguiendo los principios de cada framework.*
 
 ## Ejemplo 2 - Two-Way Binding
 
