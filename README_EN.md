@@ -45,7 +45,7 @@ In this first example, I show what the equivalent of a Signal in Blazor WebAssem
 
 ## Example 2 - Two-Way Binding
 
-This second example is a bit more complex. It covers the Signal concepts of *compute, effect, and update*. Editing in one box performs a calculation that updates another box, and vice versa. I admit it was somewhat challenging to make it work the same way in Angular as in Blazor, even with Signals. It’s likely that a developer specialized in Angular could improve the code. In any case, the final result is fully equivalent.
+This second example is a bit more complex. It covers the Signal concepts of *compute and update*. Editing in one box performs a calculation that updates another box, and vice versa. I admit it was somewhat challenging to make it work the same way in Angular as in Blazor, even with Signals. It’s likely that a developer specialized in Angular could improve the code. In any case, the final result is fully equivalent.
 
 <table>
   <thead>
@@ -57,7 +57,7 @@ This second example is a bit more complex. It covers the Signal concepts of *com
   <tbody>
     <tr>
       <td valign="top">
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 510px; object-fit: contain;" /> 
       </td>
       <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 

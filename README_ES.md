@@ -45,7 +45,7 @@ En este primer ejemplo, muestro cómo es el equivalente de un Signals en Blazor 
 
 ## Ejemplo 2 - Two-Way Binding
 
-Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal *compute, effect, y update*. Al editar en una caja, se realiza un cálculo que actualiza otra caja, y viceversa. Admito que fue algo desafiante lograr que funcionara de la misma forma en Angular que en Blazor, incluso con Signals. Es probable que un programador especializado en Angular pueda mejorar el código. En cualquier caso, el resultado final es completamente equivalente.
+Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal *compute, y update*. Al editar en una caja, se realiza un cálculo que actualiza otra caja, y viceversa. Admito que fue algo desafiante lograr que funcionara de la misma forma en Angular que en Blazor, incluso con Signals. Es probable que un programador especializado en Angular pueda mejorar el código. En cualquier caso, el resultado final es completamente equivalente.
 
 <table>
   <thead>
@@ -57,7 +57,7 @@ Este segundo ejemplo, es algo más complejo. Se abordan los conceptos de Signal 
   <tbody>
     <tr>
       <td valign="top">
-        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 630px; object-fit: contain;" /> 
+        <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/ng2.png" style="width: 490px; height: 510px; object-fit: contain;" /> 
       </td>
       <td valign="top">
         <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/cs2.png" style="width: 490px; height: 500px; object-fit: contain;" /> 
