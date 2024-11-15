@@ -1,5 +1,2 @@
-
-
-
 Blazor Two-Way Binding
-Source: github.com/telerik/Blazor-Quick-Start-Videos/blob/master/Pages/Converter.razor 
+https://www.youtube.com/watch?v=Y9a6rJPrFFI
