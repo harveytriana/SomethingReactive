@@ -87,6 +87,11 @@ Finalmente podemos usar este par de componentes en una página para ilustrar el 
   </tbody>
 </table>
 
+### Ejecutando
+<p align="center">
+  <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/Running.png" alt="Ejecutando...">
+</p>
+
 ---
 ## Notas
 
