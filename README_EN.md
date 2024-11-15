@@ -87,6 +87,9 @@ Finally, we can use this pair of components on a page to illustrate the behavior
   </tbody>
 </table>
 
+<center>
+  <img src="https://github.com/harveytriana/SomethingReactive/blob/master/Screens/Running.png" /> 
+</center>
 ---
 
 ## Notes
