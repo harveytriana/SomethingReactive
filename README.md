@@ -1,8 +1,9 @@
-# Comparando Reactividad en Blazor WebAssembly con Signals de Angular
+# Comparing Reactivity in Blazor WebAssembly with Angular's Signals
 
-Este proyecto está documentado en dos idiomas:
-- [Español](README_ES.md)
+This project is documented in two languages:
 - [English](README_EN.md)
+- [Español](README_ES.md)
+
 
 
 
