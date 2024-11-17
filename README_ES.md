@@ -93,16 +93,16 @@ Finalmente podemos usar este par de componentes en una página para ilustrar el 
 </p>
 
 ---
-## Notas
+## Nota
 
 > La aplicación Blazor WebAssembly se escribió en un Template mínimo. Plantilla: Blazor WebAssembly App Empty, sin ASP.NET Core Hosted.
 
-> No soy experto en Angular, pero encuentro que para alguien con experiencia en Blazor WebAssembly, aprender Angular resulta accesible, ya que comparten varios conceptos y estructuras similares.
-
-## Conclusión
+## Conclusiones
 
 Blazor WebAssembly es superior a Angular en este aspecto, permitiendo escribir menos código y de forma más clara. Sin embargo, para muchos, la popularidad de Angular sigue siendo un factor determinante.
 
 Se mantiene el contraste entre las ventajas técnicas de Blazor y la popularidad de Angular, React, Vue.js, otros en el entorno de desarrollo frontend.
+
+Encuentro que para alguien con experiencia en Blazor WebAssembly, aprender Angular resulta accesible, ya que comparten varios conceptos y estructuras similares.
 
 
