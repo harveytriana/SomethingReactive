@@ -93,7 +93,7 @@ Finally, we can use this pair of components on a page to illustrate the behavior
 </p>
 ---
 
-## Note
+### Note
 
 > The Blazor WebAssembly app was written in a minimal Template. Template: Blazor WebAssembly App Empty, without ASP.NET Core Hosted.
 

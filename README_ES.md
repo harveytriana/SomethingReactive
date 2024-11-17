@@ -93,7 +93,7 @@ Finalmente podemos usar este par de componentes en una página para ilustrar el 
 </p>
 
 ---
-## Nota
+### Nota
 
 > La aplicación Blazor WebAssembly se escribió en un Template mínimo. Plantilla: Blazor WebAssembly App Empty, sin ASP.NET Core Hosted.
 
