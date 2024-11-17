@@ -105,3 +105,6 @@ Blazor WebAssembly is superior to Angular in this regard, allowing for less code
 The contrast remains between the technical advantages of Blazor and the popularity of Angular, React, Vue.js, and others in the frontend development environment.
 
 I find that for someone with experience in Blazor WebAssembly, learning Angular is accessible, since they share several similar concepts and structures.
+
+---
+<small>By: Luis Harvey Triana Vega</small>
