@@ -95,7 +95,7 @@ Finally, we can use this pair of components on a page to illustrate the behavior
 
 ## Notes
 
-> The Blazor WebAssembly app was written in a minimal template. That is, without examples, and without the traditional layout. Such a template can be automated with tools like those offered by Sakamoto: https://github.com/jsakamoto/BlazorMinimumTemplates (something Microsoft should standardize). Essentially, it involves removing certain files and unused CSS.
+> The Blazor WebAssembly app was written in a minimal Template. Template: Blazor WebAssembly App Empty, without ASP.NET Core Hosted.
 
 > I'm not an expert in Angular, but I find that for someone with experience in Blazor WebAssembly, learning Angular is accessible, as they share several similar concepts and structures.
 
