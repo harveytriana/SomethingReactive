@@ -22,7 +22,7 @@ Blazor uses a component-based programming model, where each component has its ow
 
 In this first example, I show what the equivalent of a Signal in Blazor WebAssembly would look like. The result is identical, and the performance is the same (of course). It’s a simple component that updates granularly every 250 milliseconds.
 
-<table>
+<table style="width:1000px;">
   <thead>
     <tr>
       <th>Angular</th>
