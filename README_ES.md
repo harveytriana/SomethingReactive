@@ -105,4 +105,4 @@ Se mantiene el contraste entre las ventajas técnicas de Blazor y la popularidad
 
 Encuentro que para alguien con experiencia en Blazor WebAssembly, aprender Angular resulta accesible, ya que comparten varios conceptos y estructuras similares.
 
-
+_Oí hace poco un comentario de un tal «Gentleman Programming», experto en frontend que decía: «Angular pide demasiado a sus programadores». Cierto, para algo sencillo tienen que usar una sofisticada implementación como Signals._
